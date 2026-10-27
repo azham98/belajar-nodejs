@@ -1,0 +1,14 @@
+1) node.js asyncronus, non blicking, single thread but can multi depend cpu, chatgpt
+
+2) vid 5 
+- function dalam file js A boleh di akses di file js B, tapi untuk yang diimport dlam html or browser sahaja. so hati2 buat naming function.
+- kalau file js and js takpa sebab dianggap 1 file = 1 module oleh node, so tak boleh simply console log function file lain even dah require
+- so mcam mana nak akses ? kena guna export (explain detail dalam video 6 )
+
+3) vide 6
+- order import module : 1. core module 2. local module 3. third party module
+
+4) vid 14
+- use = guna untuk middleware, jangan letak atas sekali sbb nnti override semua route
+
+- mongoose : ORM mongodb
